@@ -25,7 +25,10 @@ Entrada(post, tweet) -> Algoritmo classficador -> Spam, Normal
 
 <p><b>Associações:</b></p>
 <p>Correlação entre palavras (Associações):</p>
+
 <p>É basicamente identificar padrões -regras de associações- em textos:</p>
+=======
+<p>É basicamente identificar padrões em textos:</p>
 <p>"60% dos textos que contém a palavra <b>Internacional</b> também contém a palavra <b>Grêmio</b>.
 3% de todos os textos contém ambas as palavras.
 Case baseado nisso: O walmart identificou que quando eram vendido fraudas também
@@ -89,3 +92,6 @@ texto -> Algoritmo de machine learning -> classificação em positivo, neutro ou
 <h1>Classificação de textos</h1>
 <p>Os atributos previsores na classificação de textos são as próprias palavras</p>
 <p>É feito um pivoteamente de frase para coluna. Cada palavra da frase vira uma coluna. Stop-words são eliminadas e são apenas palavras únicas permitidas. Logo após isso, para cada coluna eu coloco uma flag booleana para identificar se a palavra está na frase daquele registro </p>
+=======
+
+<p>A presença do termo <b>Pelé</b></p>

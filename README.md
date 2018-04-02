@@ -94,4 +94,10 @@ texto -> Algoritmo de machine learning -> classificação em positivo, neutro ou
 <p>É feito um pivoteamente de frase para coluna. Cada palavra da frase vira uma coluna. Stop-words são eliminadas e são apenas palavras únicas permitidas. Logo após isso, para cada coluna eu coloco uma flag booleana para identificar se a palavra está na frase daquele registro </p>
 =======
 
-<p>A presença do termo <b>Pelé</b></p>
+<h1>Como funciona:</h1>
+<p>Temos uma base de frases e uma coluna com o sentimento que ela representa.</p>
+<p>Removemos stop-words (o, a, agora, agora, algum, alguma, aquele, aqueles, de, deu, do, e) pois diminui o processamento e 
+deixa a tabela menor.</p>
+<p>(Steeming) Extraímos os radicais das palavras para reduzir a dimensionalidade dos dados. A raiz da palavra é um elemento originário e irredutível em que se encontra a significação das palavras.</p>
+<p>Desvantagens de usar stemming: Palavras com sentido opostos possuem o mesmo radical: Novamente e novo, por exemplo.</p>
+<p>A tabela final é feita apenas com radicais únicos de palavras. Não posso ter cabeçalhos iguais. </p>

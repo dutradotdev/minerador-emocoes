@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import nltk
-#nltk.download('words')
+nltk.download()
 #nltk.download('maxent_ne_chunker')
 
 texto = 'Mr. Lucas isso e um teste. Mr. Lucas teste 2'
